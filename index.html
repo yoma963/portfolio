@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bence Cseloczki | Portfolio</title>
+    <!--SCROLL REVEAL-->
+    <script src="https://unpkg.com/scrollreveal"></script>
     <!--MAIN CSS-->
     <link rel="stylesheet" href="./css/style.css">
     <!--BOX ICONS-->
@@ -18,8 +20,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
     <link rel="manifest" href="./favicon_io/site.webmanifest">
-    <!--SCROLL REVEAL-->
-    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
     <!--HEADER-->
@@ -49,7 +49,7 @@
         <div class="home-right-container">
             <div class="overlay">
             </div>
-            <img src="./imgs/home_photo.png" alt="home photo" class="home-img">
+            <img src="./imgs/home_photo.png" alt="home photo" class="home-img load-hidden">
         </div>
     </section>
     <!--ABOUT SECTION-->
@@ -128,8 +128,8 @@
               <input type="email" id="mail" name="email" class="input" placeholder="Type your e-mail.." required>
               <label for="message">Message</label>
               <textarea id="message" placeholder="Type your message.." name="message" class="input" style="height: 15rem; resize: none" required></textarea>
-              <input type="hidden" name="_next" value="https://yoma963.github.io/portfolio/">
               <input class="btn" type="submit" value="Send">
+              <input type="hidden" name="_next" value="https://yoma963.github.io/portfolio/">
             </form>
           </div>
     </section>
