@@ -498,7 +498,6 @@ form label {
 @media (max-width: 768px) {
     .home {
         padding: 0 3% 8rem;
-        justify-content: center;
         text-align: center;
     }
 
@@ -528,7 +527,7 @@ form label {
 
     .home .home-right-container .overlay {
         position: fixed;
-        top: 70rem;
+        top: 55rem;
         left: 50%;
         right: 0;
         transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
@@ -605,18 +604,18 @@ form label {
     }
 
     .home {
-        padding: 8rem 3% 10rem;
+        padding: 9rem 3% 10rem;
+        align-items: start;
     }
 
     .home .home-right-container .overlay {
-        position: fixed;
-        top: 68rem;
+        position: absolute;
+        top: 55rem;
         left: 50%;
         right: 0;
         transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
         border-width: 24rem;
     }
-
 }
 
 html.sr .load-hidden {

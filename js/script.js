@@ -6,19 +6,6 @@ let navLinks = document.querySelectorAll('.nav-link');
 let menuIcon = document.querySelector('#icon');
 let navbar = document.querySelector('.navbar');
 
-/* SCROLL REVEAL */
-ScrollReveal({
-    //reset: true,
-    distance: '80px',
-    duration: 2000,
-    delay: 200
-});
-
-ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
-ScrollReveal().reveal('.home-img, .form-container, .about .button', { origin: 'bottom' });
-ScrollReveal().reveal('.home-content h3, .home-content p, .right-container', { origin: 'right' });
-ScrollReveal().reveal('.home-content h1, .left-container', { origin: 'left' });
-
 /* MENU ICON NAVBAR */
 menuIcon.onclick = () => {
     menuIcon.classList.toggle('x-icon');
@@ -49,3 +36,15 @@ window.onscroll = () => {
     navbar.classList.remove('active');
 };
 
+/* SCROLL REVEAL */
+ScrollReveal({
+    //reset: true,
+    distance: '80px',
+    duration: 2000,
+    delay: 200
+});
+
+ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+ScrollReveal().reveal('.home-img, .form-container, .about .button', { origin: 'bottom' });
+ScrollReveal().reveal('.home-content h3, .home-content p, .right-container', { origin: 'right' });
+ScrollReveal().reveal('.home-content h1, .left-container', { origin: 'left' });
