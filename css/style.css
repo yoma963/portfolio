@@ -614,3 +614,7 @@ form label {
     }
 
 }
+
+html.sr .load-hidden {
+    visibility: hidden;
+}
