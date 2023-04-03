@@ -322,6 +322,10 @@ section {
     justify-content: center;
 }
 
+.projects .right-container .buttons-cont .btn {
+    margin-inline: .4rem;
+}
+
 .project-img {
     width: 100%;
     display: block;
@@ -571,6 +575,10 @@ form label {
     }
 
     .projects .right-container h3 {
+        text-align: center;
+    }
+
+    .projects .right-container .buttons-cont {
         text-align: center;
     }
 
