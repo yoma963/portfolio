@@ -24,6 +24,10 @@ html {
     overflow-x: hidden;
 }
 
+html::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     background-color: var(--main-bg-color);
     color: var(--main-storm-color);
@@ -493,7 +497,7 @@ form label {
 
 @media (max-width: 768px) {
     .home {
-        padding: 0 3% 18rem;
+        padding: 0 3% 8rem;
         justify-content: center;
         text-align: center;
     }
@@ -601,12 +605,12 @@ form label {
     }
 
     .home {
-        padding: 15rem 3% 10rem;
+        padding: 8rem 3% 10rem;
     }
 
     .home .home-right-container .overlay {
         position: fixed;
-        top: 65rem;
+        top: 68rem;
         left: 50%;
         right: 0;
         transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
