@@ -44,7 +44,11 @@ ScrollReveal({
     delay: 200
 });
 
-ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
-ScrollReveal().reveal('.home-img, .form-container, .about .button', { origin: 'bottom' });
-ScrollReveal().reveal('.home-content h3, .home-content p, .right-container', { origin: 'right' });
-ScrollReveal().reveal('.home-content h1, .left-container', { origin: 'left' });
+ScrollReveal().reveal('.home-content', { origin: 'top' });
+ScrollReveal().reveal('.heading', { origin: 'top', mobile: false });
+ScrollReveal().reveal('.form-container, .about .button', { origin: 'bottom', mobile: false });
+ScrollReveal().reveal('.home-img', { origin: 'bottom' });
+ScrollReveal().reveal('.right-container', { origin: 'right', mobile: false });
+ScrollReveal().reveal('.home-content h3, .home-content p', { origin: 'right' });
+ScrollReveal().reveal('.left-container', { origin: 'left', mobile: false });
+ScrollReveal().reveal('.home-content h1', { origin: 'left' });

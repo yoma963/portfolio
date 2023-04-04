@@ -443,14 +443,55 @@ form label {
 }
 
 @media (max-width: 991px) {
+    section {
+        padding: 9rem 3% 1rem;
+    }
+
     .home-img {
         display: none;
     }
+
+    .home {
+        position: relative;
+        padding: 8rem 3% 8rem;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .home-content {
+        max-width: 48rem;
+    }
+
+    .home-content h1 {
+        margin-bottom: 3rem;
+    }
+
+    .home-content .social-media {
+        padding: 0;
+        margin-block: 1rem;
+    }
+
+    .home-content .social-media a {
+        margin: 3rem .75rem 3rem;
+    }
+
+    .home .home-right-container {
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .home .home-right-container .overlay {
+        position: absolute;
+        top: 95%;
+        left: 50%;
+        right: 0;
+        transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
+        border-width: 24rem;
+    }
+
     .footer {
         padding: 1rem 3%;
-    }
-    section {
-        padding: 9rem 3% 1rem;
     }
     
     #menu-icon {
@@ -496,10 +537,6 @@ form label {
 }
 
 @media (max-width: 768px) {
-    .home {
-        padding: 0 3% 8rem;
-        text-align: center;
-    }
 
     .home-content h3 {
         font-size: 2.6rem;
@@ -507,31 +544,6 @@ form label {
 
     .home-content h1 {
         font-size: 4rem;
-        margin-bottom: 3rem;
-    }
-
-    .home-content .social-media {
-        padding: 0;
-        margin-block: 1rem;
-    }
-
-    .home-content .social-media a {
-        margin: 3rem .75rem 3rem;
-    }
-
-    .home .home-right-container {
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-
-    .home .home-right-container .overlay {
-        position: fixed;
-        top: 55rem;
-        left: 50%;
-        right: 0;
-        transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
-        border-width: 24rem;
     }
 
     .left-right-containers {
@@ -601,20 +613,6 @@ form label {
 @media (max-width: 450px) {
     html {
         font-size: 60%;
-    }
-
-    .home {
-        padding: 9rem 3% 10rem;
-        align-items: start;
-    }
-
-    .home .home-right-container .overlay {
-        position: absolute;
-        top: 55rem;
-        left: 50%;
-        right: 0;
-        transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
-        border-width: 24rem;
     }
 }
 
