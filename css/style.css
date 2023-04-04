@@ -449,7 +449,7 @@ form label {
 
     .home {
         position: relative;
-        padding: 8rem 3% 8rem;
+        padding: 6rem 3% 8rem;
         justify-content: center;
         text-align: center;
     }
@@ -479,7 +479,7 @@ form label {
 
     .home .home-right-container .overlay {
         position: absolute;
-        top: 95%;
+        top: 91%;
         left: 50%;
         right: 0;
         transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
