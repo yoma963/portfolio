@@ -148,11 +148,6 @@ section {
     transition: .3s ease;
 }
 
-.home-content .social-media a:hover {
-    background: var(--main-sunburst-color);
-    color: var(--main-bg-color);
-}
-
 .btn {
     display: inline-block;
     padding: 1.2rem 2.8rem;
@@ -167,11 +162,7 @@ section {
     transition: .3s ease;
 }
 
-.btn:hover {
-    background: transparent;
-    color: var(--main-sunburst-color);
-    border-color: var(--main-sunburst-color);
-}
+
 
 .home .home-right-container {
     position: absolute;
@@ -407,9 +398,7 @@ form label {
     transition: .2s ease;
 }
 
-.footer-iconTop a:hover {
-    outline-color: var(--main-bg-color);
-}
+
 
 .footer-iconTop a img {
     width: 2rem;
@@ -609,6 +598,21 @@ form label {
 @media (max-width: 450px) {
     html {
         font-size: 60%;
+    }
+}
+
+@media (hover: hover) {
+    .home-content .social-media a:hover {
+        background: var(--main-sunburst-color);
+        color: var(--main-bg-color);
+    }
+    .btn:hover {
+        background: transparent;
+        color: var(--main-sunburst-color);
+        border-color: var(--main-sunburst-color);
+    }
+    .footer-iconTop a:hover {
+        outline-color: var(--main-bg-color);
     }
 }
 
